@@ -1,0 +1,24 @@
+{
+  "originHash" : "f6010f8fca2750091de6d668e5a308a37de7aad054109f5e3761b26367420eb2",
+  "pins" : [
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "state" : {
+        "revision" : "fe4c6fe3a0aa66cdeb51d549623c82ca9704b9a5",
+        "version" : "4.5.0"
+      }
+    },
+    {
+      "identity" : "swiftpersistence",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cheesetan/SwiftPersistence",
+      "state" : {
+        "revision" : "8b13dfbeac821279cd3ca5fb9f360250325b6f81",
+        "version" : "1.1.2"
+      }
+    }
+  ],
+  "version" : 3
+}
