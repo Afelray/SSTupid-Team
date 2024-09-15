@@ -32,11 +32,11 @@ struct Home_screen: View {
                                 Text("Level:")
                                     .bold()
                                     .fontWeight(.heavy)
-                                    .foregroundStyle(.black)
+                                    .foregroundStyle(.white)
                                 Text("\(level)")
                                     .bold()
                                     .fontWeight(.heavy)
-                                    .foregroundStyle(.black)
+                                    .foregroundStyle(.white)
                                     .font(.system(size: 50))
                             }
                         }
