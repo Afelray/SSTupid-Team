@@ -94,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 662FB5DF2C93ED00006D21C6 /* Build configuration list for PBXProject "Incoin Heist" */;
+			buildConfigurationList = 662FB5DF2C93ED00006D21C6 /* Build configuration list for PBXProject "INCoin Heist" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		662FB5DF2C93ED00006D21C6 /* Build configuration list for PBXProject "Incoin Heist" */ = {
+		662FB5DF2C93ED00006D21C6 /* Build configuration list for PBXProject "INCoin Heist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				662FB5F02C93ED02006D21C6 /* Debug */,
