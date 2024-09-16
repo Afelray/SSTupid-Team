@@ -11,7 +11,7 @@ import SwiftUI
 struct Incoin_HeistApp: App {
     var body: some Scene {
         WindowGroup {
-            Home_screen()
+            ContentView()
         }
     }
 }

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		662FB5F72C93EF4D006D21C6 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 662FB5F62C93EF4D006D21C6 /* Lottie */; };
 		662FB5FA2C93EF67006D21C6 /* SwiftPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = 662FB5F92C93EF67006D21C6 /* SwiftPersistence */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				662FB5FA2C93EF67006D21C6 /* SwiftPersistence in Frameworks */,
-				662FB5F72C93EF4D006D21C6 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +70,6 @@
 			);
 			name = "Incoin Heist";
 			packageProductDependencies = (
-				662FB5F62C93EF4D006D21C6 /* Lottie */,
 				662FB5F92C93EF67006D21C6 /* SwiftPersistence */,
 			);
 			productName = "Incoin Heist";
@@ -94,7 +91,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 662FB5DF2C93ED00006D21C6 /* Build configuration list for PBXProject "INCoin Heist" */;
+			buildConfigurationList = 662FB5DF2C93ED00006D21C6 /* Build configuration list for PBXProject "Incoin Heist" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -104,7 +101,6 @@
 			mainGroup = 662FB5DB2C93ED00006D21C6;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				662FB5F52C93EF4D006D21C6 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				662FB5F82C93EF67006D21C6 /* XCRemoteSwiftPackageReference "SwiftPersistence" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -318,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		662FB5DF2C93ED00006D21C6 /* Build configuration list for PBXProject "INCoin Heist" */ = {
+		662FB5DF2C93ED00006D21C6 /* Build configuration list for PBXProject "Incoin Heist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				662FB5F02C93ED02006D21C6 /* Debug */,
@@ -339,14 +335,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		662FB5F52C93EF4D006D21C6 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.5.0;
-			};
-		};
 		662FB5F82C93EF67006D21C6 /* XCRemoteSwiftPackageReference "SwiftPersistence" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/cheesetan/SwiftPersistence";
@@ -358,11 +346,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		662FB5F62C93EF4D006D21C6 /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 662FB5F52C93EF4D006D21C6 /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
 		662FB5F92C93EF67006D21C6 /* SwiftPersistence */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 662FB5F82C93EF67006D21C6 /* XCRemoteSwiftPackageReference "SwiftPersistence" */;

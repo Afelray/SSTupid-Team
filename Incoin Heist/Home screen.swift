@@ -7,7 +7,6 @@
 
 
 import SwiftUI
-import Lottie
 import SwiftPersistence
 
 // homescreen
@@ -22,7 +21,7 @@ struct Home_screen: View {
                         .frame(width: 160, height: 170)
                         .cornerRadius(10)
                     
-                    NavigationLink(destination: Text("still blank -_-")) {
+                    NavigationLink(destination: LevelView()) {
                         ZStack {
                             Rectangle()
                                 .frame(width: 160, height: 170)
@@ -46,6 +45,7 @@ struct Home_screen: View {
             }
             .padding()
             .navigationTitle(Text("Home"))
+            .navigationBarBackButtonHidden(true)
         }
     }
 }
