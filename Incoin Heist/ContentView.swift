@@ -12,14 +12,20 @@ struct ContentView: View {
     @State var usercheck2: Bool = false
     @State var textfieldText: String = "Username..."
     var body: some View {
-        NavigationStack {
+       NavigationStack {
             VStack {
                 if !showRect {
-                TextField("\(textfieldText)", text: $username)
-                    .padding()
-                    .background(Color.gray.opacity(0.3).cornerRadius(10))
-                    .padding()
-                
+                        Text("Login")
+                            .fontWeight(.bold)
+                            .font(.system(size: 30))
+                            .padding()
+                        
+                    
+                    TextField("\(textfieldText)", text: $username)
+                        .padding()
+                        .background(Color.gray.opacity(0.3).cornerRadius(10))
+                        .padding()
+                    
                     Button{
                         usernamecheck()
                         if usercheck2 {
@@ -39,7 +45,7 @@ struct ContentView: View {
                     .padding()
                 }
                 Spacer()
-         
+                
                 
                 if showRect {
                     NavigationLink {
@@ -65,16 +71,17 @@ struct ContentView: View {
                     }
                     .transition(.move(edge: .bottom))
                     .animation(.easeInOut, value: showRect)
+                }
             }
+            .navigationBarBackButtonHidden(true)
         }
-    }
         }
     func usernamecheck() -> Bool {
         if username.count >= 5 {
             usercheck2 = true
             return true
         } else {
-           var usercheck2 = false
+            usercheck2 = false
             username = ""
             textfieldText = "Username must be at least 5 characters"
             return false

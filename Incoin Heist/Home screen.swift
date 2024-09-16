@@ -16,6 +16,10 @@ struct Home_screen: View {
     var body: some View {
         NavigationStack {
             VStack {
+                Text("Home")
+                    .fontWeight(.bold)
+                    .font(.system(size: 30))
+                    .padding()
                 HStack {
                     Rectangle()
                         .frame(width: 160, height: 170)
@@ -42,9 +46,22 @@ struct Home_screen: View {
                     }
                 }
                 Spacer()
+                NavigationLink {
+                    ContentView()
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .frame(width: 385)
+                            .frame(height: 55)
+                            .cornerRadius(10)
+                        Text("Log Out")
+                            .foregroundStyle(.white)
+                            .bold()
+                            .fontWeight(.heavy)
+                    }
+                }
             }
             .padding()
-            .navigationTitle(Text("Home"))
             .navigationBarBackButtonHidden(true)
         }
     }

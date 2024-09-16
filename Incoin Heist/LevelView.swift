@@ -11,6 +11,10 @@ struct LevelView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                Text("Levels")
+                    .fontWeight(.bold)
+                    .font(.system(size: 30))
+                    .padding()
                 Spacer()
                 List {
                     NavigationLink(destination: Text("Still blank")) {
@@ -121,7 +125,6 @@ struct LevelView: View {
                 }
             }
                         }
-                        .navigationTitle(Text("Levels:"))
                         .navigationBarTitleDisplayMode(.inline)
                         .navigationBarBackButtonHidden(true)
                     }
