@@ -22,7 +22,7 @@ struct ContentView: View {
                         
                     
                     TextField("\(textfieldText)", text: $username)
-                        .padding()
+                    .padding()
                         .background(Color.gray.opacity(0.3).cornerRadius(10))
                         .padding()
                     
@@ -49,7 +49,7 @@ struct ContentView: View {
                 
                 if showRect {
                     NavigationLink {
-                        Home_screen()
+                        TabHolder()
                     } label: {
                         ZStack {                        RoundedRectangle(cornerRadius: 30)
                                 .fill(.blue)

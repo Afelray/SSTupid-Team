@@ -8,9 +8,9 @@
 
 import SwiftUI
 import SwiftPersistence
-
 // homescreen
 struct Home_screen: View {
+    
     @Persistent("level") var level = 0
 
     var body: some View {

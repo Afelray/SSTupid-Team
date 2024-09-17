@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		662FB5FA2C93EF67006D21C6 /* SwiftPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = 662FB5F92C93EF67006D21C6 /* SwiftPersistence */; };
+		66341E362C99852400B2182D /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 66341E352C99852400B2182D /* GoogleGenerativeAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				662FB5FA2C93EF67006D21C6 /* SwiftPersistence in Frameworks */,
+				66341E362C99852400B2182D /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = "Incoin Heist";
 			packageProductDependencies = (
 				662FB5F92C93EF67006D21C6 /* SwiftPersistence */,
+				66341E352C99852400B2182D /* GoogleGenerativeAI */,
 			);
 			productName = "Incoin Heist";
 			productReference = 662FB5E42C93ED00006D21C6 /* Incoin Heist.app */;
@@ -102,6 +105,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				662FB5F82C93EF67006D21C6 /* XCRemoteSwiftPackageReference "SwiftPersistence" */,
+				66341E342C99852400B2182D /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 662FB5E52C93ED00006D21C6 /* Products */;
@@ -341,6 +345,14 @@
 				minimumVersion = 1.1.2;
 			};
 		};
+		66341E342C99852400B2182D /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -348,6 +360,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 662FB5F82C93EF67006D21C6 /* XCRemoteSwiftPackageReference "SwiftPersistence" */;
 			productName = SwiftPersistence;
+		};
+		66341E352C99852400B2182D /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66341E342C99852400B2182D /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
