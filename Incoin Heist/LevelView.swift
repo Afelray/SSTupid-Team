@@ -110,7 +110,7 @@ struct LevelView: View {
                         }
                                 }
                 NavigationLink {
-                    Home_screen()
+                    TabHolder()
                 } label: {
                     ZStack {
                         Rectangle()
