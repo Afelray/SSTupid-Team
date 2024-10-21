@@ -11,6 +11,7 @@ struct ContentView: View {
     @State var showRect: Bool = false
     @State var usercheck2: Bool = false
     @State var textfieldText: String = "Username..."
+    @State var isDisabled: Bool = false
     var body: some View {
        NavigationStack {
             VStack {

@@ -17,7 +17,7 @@ struct LevelView: View {
                     .padding()
                 Spacer()
                 List {
-                    NavigationLink(destination: Text("Still blank")) {
+                    NavigationLink(destination: Text("An Unkwown Error Occured. Please Try Again Later. Error Code <756>")) {
                         VStack {
                             HStack {
                                 Text("Level 1")
@@ -30,7 +30,7 @@ struct LevelView: View {
                             }
                         }
                     }
-                    NavigationLink(destination: Text("Still blank")) {
+                    NavigationLink(destination: Text("An Unkwown Error Occured. Please Try Again Later. Error Code <756>d")) {
                         VStack {
                             HStack {
                                 Text("Level 2")
@@ -43,7 +43,7 @@ struct LevelView: View {
                             }
                         }
                     }
-                    NavigationLink(destination: Text("Still blank")) {
+                    NavigationLink(destination: Text("An Unkwown Error Occured. Please Try Again Later. Error Code <756>")) {
                         VStack {
                             HStack {
                                 Text("Level 3")
@@ -56,7 +56,7 @@ struct LevelView: View {
                             }
                         }
                     }
-                    NavigationLink(destination: Text("Still blank")) {
+                    NavigationLink(destination: Text("An Unkwown Error Occured. Please Try Again Later. Error Code <756>")) {
                         VStack {
                             HStack {
                                 Text("Level 4")
@@ -69,7 +69,7 @@ struct LevelView: View {
                             }
                         }
                     }
-                                NavigationLink(destination: Text("Still blank")) {
+                                NavigationLink(destination: Text("An Unkwown Error Occured. Please Try Again Later. Error Code <756>")) {
                                     VStack {
                                         HStack {
                                             Text("Level 5")
@@ -82,7 +82,7 @@ struct LevelView: View {
                                         }
                                     }
                                     }
-                    NavigationLink(destination: Text("Still blank")) {
+                    NavigationLink(destination: Text("An Unkwown Error Occured. Please Try Again Later. Error Code <756>")) {
                         VStack {
                             HStack {
                                 Text("Level 6")
@@ -95,7 +95,7 @@ struct LevelView: View {
                             }
                         }
                         }
-                    NavigationLink(destination: Text("Still blank")) {
+                    NavigationLink(destination: Text("An Unkwown Error Occured. Please Try Again Later. Error Code <756>")) {
                         VStack {
                             HStack {
                                 Text("Level 6")

@@ -45,7 +45,7 @@ struct GeminiView: View {
     }
     
     func sendMessage() {
-          aiResponse = "Loading..."
+            aiResponse = "Loading..."
           Task {
               do {
                   let response = try await model.generateContent(textInput)
